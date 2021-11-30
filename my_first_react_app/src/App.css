@@ -1,0 +1,52 @@
+.card-image {
+  width: 300px;
+  height: 225px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  max-height: 290px;
+  width: 300px;
+  transition: 0.6s;
+  border-radius: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  gap: 20px;
+}
+
+.card-body {
+  line-height: 20px;
+}
+
+.card-header {
+  position: relative;
+  width: 300px;
+  height: 225px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.card-price {
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: white;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 6px;
+}
+.card-date {
+  color: grey;
+  font: 11px;
+}
+
+.card-spacing {
+  padding-left: 3px;
+}
