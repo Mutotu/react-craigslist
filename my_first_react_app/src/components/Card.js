@@ -14,7 +14,7 @@ const Card = (props) => {
         <span className='card-spacing'>{props.price}</span>
         <span className='card-spacing'> {props.bed}</span>
         <span className='card-spacing'> {props.sqft}</span>
-        <span className='card-spacing'> {props.location}</span>{" "}
+        <span className='card-spacing'> {props.location}</span>
       </div>
     </div>
   );
